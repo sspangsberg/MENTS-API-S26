@@ -18,7 +18,7 @@ export function setupDocs(app: Application) {
         description: 'Development server',
       },
       {
-        url: 'https://ments-api-s26.onrender.com',
+        url: 'https://ments-api-s26.onrender.com/api/',
         description: 'Render.com',
       }
     ],
