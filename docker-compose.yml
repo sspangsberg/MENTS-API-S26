@@ -1,0 +1,25 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    container_name: api-dev
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/app
+    tty: true
+
+  mongo:
+    image: mongo:latest
+    container_name: db-mongo
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: password
+
+ 
+
+    
+  
