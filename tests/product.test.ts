@@ -7,8 +7,6 @@ export default function productTestCollection() {
      */
   test("Workflow - register, login, create product and verify", async ({ request }) => {
 
-    test.setTimeout(30_000); // Increase test timeout due to MongoDB Atlas being slow at times.
-
     //------------------------------------------------------------------------------
     // Create test objects
     //------------------------------------------------------------------------------
