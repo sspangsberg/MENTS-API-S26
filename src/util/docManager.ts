@@ -10,12 +10,16 @@ export function setupDocs(app: Application) {
       title: 'MENTS-RESTAPI',
       version: '1.0.0',
       description:
-        'This is a REST API application made with Express. It retrieves data from JSONPlaceholder.',
+        'MongoDB Express Node TypeScript API',
     },
     servers: [
       {
         url: 'http://localhost:4000/api/',
         description: 'Development server',
+      },
+      {
+        url: 'https://ments-api-s26.onrender.com',
+        description: 'Render.com',
       }
     ],
 
