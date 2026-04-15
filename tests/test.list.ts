@@ -15,7 +15,7 @@ import { connect, disconnect } from '../src/repository/database';
 import dotenvFlow from "dotenv-flow";
 dotenvFlow.config();
 
-test.setTimeout(10_000); // Increase test timeout due to MongoDB Atlas being slow at times.
+test.setTimeout(30_000); // Increase test timeout due to MongoDB Atlas being slow at times.
 
 function setup() {
     test.beforeEach(async () => {
