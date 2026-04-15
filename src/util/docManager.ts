@@ -13,14 +13,14 @@ export function setupDocs(app: Application) {
         'MongoDB Express Node TypeScript API',
     },
     servers: [
+       {
+        url: 'https://ments-api-s26.onrender.com/api/',
+        description: 'Render.com',
+      },
       {
         url: 'http://localhost:4000/api/',
         description: 'Development server',
-      },
-      {
-        url: 'https://ments-api-s26.onrender.com/api/',
-        description: 'Render.com',
-      }
+      }     
     ],
 
     tags: [
