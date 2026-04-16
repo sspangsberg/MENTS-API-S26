@@ -31,7 +31,7 @@ export default function productTestCollection() {
 
     //expect(response.ok()).toBeTruthy();
     //expect(result).toHaveLength(0);
-    expect(response.status()).toBe(200);
+    expect(response.status()).toBe(404);
 
 
     //------------------------------------------------------------------------------
